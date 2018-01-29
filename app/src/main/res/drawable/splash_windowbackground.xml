@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 从上到下一次为底层、次底层顺序等等-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 底层背景 -->
+<item
+    android:drawable="@color/white_little_blue">
+</item>
+    <!-- 第二层背景-->
+    <item>
+        <bitmap
+            android:src="@drawable/jiniantechlogo256"
+            android:gravity="center_vertical">
+        </bitmap>
+
+    </item>
+
+</layer-list>
